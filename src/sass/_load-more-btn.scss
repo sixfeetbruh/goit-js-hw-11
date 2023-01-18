@@ -1,0 +1,40 @@
+.load-more {
+  width: 120px;
+  height: 30px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  background:rgba(0, 0, 0, 1);
+
+  &:hover,
+  &:active {
+    background-color: blueviolet;
+    transition: background-color 250ms linear, color 250ms linear;
+  }
+}
+
+.load-more.hide {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.load-more.show {
+  visibility: visible;
+  pointer-events: all;
+}
+
+.load-controls {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  row-gap: 5px;
+  margin-top: 5px;
+}
+
+.js-allow-infinity {
+  cursor: pointer;
+}
+
+.js-allow-infinity-label {
+  cursor: pointer;
+}
