@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const BASE_URL = 'https://pixabay.com/api/';
-const KEY = '32804651-81b33072ba9641590fc1a4880';
+const KEY = '32950951-67067ad68964f835c48b11390';
 const params = new URLSearchParams({
     key: KEY,
     image_type: 'photo',
